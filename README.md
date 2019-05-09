@@ -8,6 +8,7 @@ React UI Components with Atomic Design.
 - Atomic Design
 
 # ToDo
-- [ ] React + TypeScript + styled-components + Storybook
+- [x] React + styled-components + Storybook
+- [ ] React + TypeScript
 - [ ] components + Atomic Design
 - [ ] components Test
