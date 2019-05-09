@@ -19,7 +19,11 @@
     "url": "https://github.com/toshi-toma/ui-components/issues"
   },
   "homepage": "https://github.com/toshi-toma/ui-components#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
   "devDependencies": {
     "@storybook/react": "^5.0.11",
     "@storybook/addon-actions": "^5.0.11",
