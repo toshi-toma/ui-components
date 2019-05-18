@@ -7,4 +7,4 @@ const Button = styled.button`
   color: palevioletred;
 `;
 
-export default Button
+export default Button;
