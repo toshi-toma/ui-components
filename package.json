@@ -4,7 +4,7 @@
   "description": "React UI Components with Atomic Design.",
   "main": "index.js",
   "scripts": {
-    "format": "prettier .storybook/**/*.js components/**/*.tsx stories/**/*.tsx --write",
+    "format": "prettier .storybook/**/*.js src/**/*.tsx --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
