@@ -4,7 +4,8 @@
   "description": "React UI Components with Atomic Design.",
   "main": "index.js",
   "scripts": {
-    "format": "prettier .storybook/**/*.js components/**/*.tsx stories/**/*.tsx --write",
+    "lint": "eslint --ext .ts,.tsx components/",
+    "lint:fix": "eslint --ext .ts,.tsx src/ --fix",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -35,7 +36,16 @@
     "@types/storybook__addon-actions": "^3.4.2",
     "@types/storybook__react": "^4.0.1",
     "@types/styled-components": "^4.1.14",
-    "prettier": "^1.17.1",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.18.2",
     "ts-loader": "^6.0.0",
     "typescript": "^3.4.5"
   }
