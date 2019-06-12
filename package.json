@@ -4,7 +4,7 @@
   "description": "React UI Components with Atomic Design.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .ts,.tsx components/",
+    "lint": "eslint --ext .ts,.tsx src/",
     "lint:fix": "eslint --ext .ts,.tsx src/ --fix",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
