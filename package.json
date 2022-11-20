@@ -32,7 +32,7 @@
     "@storybook/addons": "5.0.11",
     "@storybook/react": "5.0.11",
     "@types/react": "16.8.17",
-    "@types/react-dom": "16.8.4",
+    "@types/react-dom": "16.9.17",
     "@types/storybook__addon-actions": "3.4.2",
     "@types/storybook__react": "4.0.1",
     "@types/styled-components": "4.1.14",
